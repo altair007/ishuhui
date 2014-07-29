@@ -1,2 +1,8 @@
-/* Localized versions of Info.plist keys */
+/* 
+  InfoPlist.strings
+  ishuhui
 
+  Created by 颜风 on 14-7-29.
+  Copyright (c) 2014年 Alatir. All rights reserved.
+*/
+CFBundleDisplayName="没有初始化啊";

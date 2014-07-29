@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="-551" y="47"/>
         </scene>
-        <!--Home View Controller - 爱鼠绘-->
+        <!--Home View Controller-->
         <scene sceneID="vvF-cO-JyV">
             <objects>
                 <viewController id="7dO-La-ybo" customClass="ISHHomeViewController" sceneMemberID="viewController">
@@ -32,8 +32,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="爱鼠绘" id="36v-dh-eA2">
+                    <navigationItem key="navigationItem" id="36v-dh-eA2">
                         <barButtonItem key="rightBarButtonItem" image="settings.png" id="8OH-W6-Lve"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="ishuhui00" localized="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JOO-m1-oqA" userLabel="First Responder" sceneMemberID="firstResponder"/>

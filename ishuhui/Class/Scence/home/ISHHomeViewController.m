@@ -19,8 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.model = [[ISHHomeModel alloc] init];
     
+    self.onSingleTap = ^(UIView * view, NSInteger viewIndex){
+        UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"提示" message: [NSString stringWithFormat:@"点击了视图: %@, 视图位置: %@", view, [NSNumber numberWithUnsignedInteger: viewIndex]] delegate: nil cancelButtonTitle: @"确定" otherButtonTitles: nil];
+        [alertView show];
+    };
+    
+    self.navigationItem.title = NSLocalizedString(@"ishuhui", nil);
+    self.model = [[ISHHomeModel alloc] init];
     self.delegate = self;
     [self reloadData];
 }
@@ -47,7 +53,7 @@
 - (UIView*) viewAtIndex:(NSUInteger)index rowInfo:(BDRowInfo*)rowInfo
 {
     UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed: self.model.homeTopicImageNames[index]]];
-    imageView.frame = CGRectMake(0, 0, 50, 50);
+    imageView.clipsToBounds = YES;
     return imageView;
 }
 

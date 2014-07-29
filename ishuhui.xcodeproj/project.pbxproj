@@ -24,21 +24,21 @@
 		C2BDFA881987384A00B908A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA871987384A00B908A2 /* Foundation.framework */; };
 		C2BDFA8A1987384A00B908A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA891987384A00B908A2 /* CoreGraphics.framework */; };
 		C2BDFA8C1987384A00B908A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA8B1987384A00B908A2 /* UIKit.framework */; };
-		C2BDFA921987384A00B908A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFA901987384A00B908A2 /* InfoPlist.strings */; };
 		C2BDFA941987384A00B908A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFA931987384A00B908A2 /* main.m */; };
 		C2BDFAA01987384A00B908A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFA9F1987384A00B908A2 /* Images.xcassets */; };
 		C2BDFAA71987384A00B908A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFAA61987384A00B908A2 /* XCTest.framework */; };
 		C2BDFAA81987384A00B908A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA871987384A00B908A2 /* Foundation.framework */; };
 		C2BDFAA91987384A00B908A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA8B1987384A00B908A2 /* UIKit.framework */; };
-		C2BDFAB11987384A00B908A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFAAF1987384A00B908A2 /* InfoPlist.strings */; };
 		C2BDFAB31987384A00B908A2 /* ishuhuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAB21987384A00B908A2 /* ishuhuiTests.m */; };
 		C2BDFAC7198744AF00B908A2 /* ISHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFABF198744AF00B908A2 /* ISHAppDelegate.m */; };
-		C2BDFACD198747A900B908A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFACB198747A900B908A2 /* Main.storyboard */; };
 		C2BDFAD61987488B00B908A2 /* BDDynamicGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAD01987488B00B908A2 /* BDDynamicGridCell.m */; };
 		C2BDFAD71987488B00B908A2 /* BDDynamicGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAD21987488B00B908A2 /* BDDynamicGridViewController.m */; };
 		C2BDFAD81987488B00B908A2 /* BDRowInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAD51987488B00B908A2 /* BDRowInfo.m */; };
 		C2BDFADC19874F0F00B908A2 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFADA19874F0F00B908A2 /* settings.png */; };
 		C2BDFADD19874F0F00B908A2 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFADB19874F0F00B908A2 /* settings@2x.png */; };
+		C2E42DF81987E60900A001D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E42DF71987E60900A001D7 /* Main.storyboard */; };
+		C2E42E191987F14100A001D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E42E171987F14100A001D7 /* InfoPlist.strings */; };
+		C2E42E1B1987F33B00A001D7 /* ishuhui-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2E42E1A1987F33B00A001D7 /* ishuhui-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,18 +72,14 @@
 		C2BDFA871987384A00B908A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2BDFA891987384A00B908A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C2BDFA8B1987384A00B908A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C2BDFA8F1987384A00B908A2 /* ishuhui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ishuhui-Info.plist"; sourceTree = "<group>"; };
-		C2BDFA911987384A00B908A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2BDFA931987384A00B908A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2BDFA951987384A00B908A2 /* ishuhui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ishuhui-Prefix.pch"; sourceTree = "<group>"; };
 		C2BDFA9F1987384A00B908A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2BDFAA51987384A00B908A2 /* ishuhuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ishuhuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BDFAA61987384A00B908A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2BDFAAE1987384A00B908A2 /* ishuhuiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ishuhuiTests-Info.plist"; sourceTree = "<group>"; };
-		C2BDFAB01987384A00B908A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2BDFAB21987384A00B908A2 /* ishuhuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ishuhuiTests.m; sourceTree = "<group>"; };
 		C2BDFABF198744AF00B908A2 /* ISHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHAppDelegate.m; sourceTree = "<group>"; };
-		C2BDFACC198747A900B908A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		C2BDFACF1987488B00B908A2 /* BDDynamicGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDynamicGridCell.h; sourceTree = "<group>"; };
 		C2BDFAD01987488B00B908A2 /* BDDynamicGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDynamicGridCell.m; sourceTree = "<group>"; };
 		C2BDFAD11987488B00B908A2 /* BDDynamicGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDynamicGridViewController.h; sourceTree = "<group>"; };
@@ -94,6 +90,9 @@
 		C2BDFADA19874F0F00B908A2 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		C2BDFADB19874F0F00B908A2 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
 		C2BDFADE198753B800B908A2 /* ISHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHAppDelegate.h; sourceTree = "<group>"; };
+		C2E42DF71987E60900A001D7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C2E42E181987F14100A001D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2E42E1A1987F33B00A001D7 /* ishuhui-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ishuhui-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +163,6 @@
 		C2BDFA8D1987384A00B908A2 /* ishuhui */ = {
 			isa = PBXGroup;
 			children = (
-				C2BDFACA198747A900B908A2 /* Base.lproj */,
 				C2BDFABD198744AF00B908A2 /* Class */,
 				C2BDFAC6198744AF00B908A2 /* Resources */,
 				C2BDFA9F1987384A00B908A2 /* Images.xcassets */,
@@ -176,8 +174,8 @@
 		C2BDFA8E1987384A00B908A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2BDFA8F1987384A00B908A2 /* ishuhui-Info.plist */,
-				C2BDFA901987384A00B908A2 /* InfoPlist.strings */,
+				C2E42E1A1987F33B00A001D7 /* ishuhui-Info.plist */,
+				C2E42E171987F14100A001D7 /* InfoPlist.strings */,
 				C2BDFA931987384A00B908A2 /* main.m */,
 				C2BDFA951987384A00B908A2 /* ishuhui-Prefix.pch */,
 			);
@@ -197,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				C2BDFAAE1987384A00B908A2 /* ishuhuiTests-Info.plist */,
-				C2BDFAAF1987384A00B908A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,6 +229,7 @@
 		C2BDFAC5198744AF00B908A2 /* Scence */ = {
 			isa = PBXGroup;
 			children = (
+				C2E42DF71987E60900A001D7 /* Main.storyboard */,
 				C2A7925919879D430022A20C /* home */,
 			);
 			path = Scence;
@@ -244,14 +242,6 @@
 				C2BDFAD919874F0F00B908A2 /* icon */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		C2BDFACA198747A900B908A2 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				C2BDFACB198747A900B908A2 /* Main.storyboard */,
-			);
-			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		C2BDFACE1987488B00B908A2 /* BDDynamicGridViewController */ = {
@@ -356,6 +346,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C2BDFA7B1987384A00B908A2;
 			productRefGroup = C2BDFA851987384A00B908A2 /* Products */;
@@ -377,9 +368,11 @@
 				C2BDFADD19874F0F00B908A2 /* settings@2x.png in Resources */,
 				C220E3941987862700B407F8 /* home_LieGame.jpg in Resources */,
 				C2BDFADC19874F0F00B908A2 /* settings.png in Resources */,
+				C2E42E1B1987F33B00A001D7 /* ishuhui-Info.plist in Resources */,
 				C2BDFAA01987384A00B908A2 /* Images.xcassets in Resources */,
+				C2E42E191987F14100A001D7 /* InfoPlist.strings in Resources */,
+				C2E42DF81987E60900A001D7 /* Main.storyboard in Resources */,
 				C2A792611987A3630022A20C /* home_AttackOnTitan.jpg in Resources */,
-				C2BDFA921987384A00B908A2 /* InfoPlist.strings in Resources */,
 				C220E38D1987862700B407F8 /* home_BigSword.jpg in Resources */,
 				C220E3951987862700B407F8 /* home_Naruto.jpg in Resources */,
 				C220E38E1987862700B407F8 /* home_DuckSky.jpg in Resources */,
@@ -389,7 +382,6 @@
 				C220E3971987862700B407F8 /* home_Volleyball.jpg in Resources */,
 				C2A7925819878FC50022A20C /* home_GiantSchool.jpg in Resources */,
 				C220E3931987862700B407F8 /* home_Hunter.jpg in Resources */,
-				C2BDFACD198747A900B908A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +389,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BDFAB11987384A00B908A2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,28 +428,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C2BDFA901987384A00B908A2 /* InfoPlist.strings */ = {
+		C2E42E171987F14100A001D7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2BDFA911987384A00B908A2 /* en */,
+				C2E42E181987F14100A001D7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C2BDFAAF1987384A00B908A2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2BDFAB01987384A00B908A2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C2BDFACB198747A900B908A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2BDFACC198747A900B908A2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
