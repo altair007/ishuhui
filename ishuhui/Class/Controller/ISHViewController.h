@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BDDynamicGridViewDelegate.h"
+#import "BDDynamicGridViewController.h"
 
-@interface ISHViewController : UIViewController
-
+@interface ISHViewController : BDDynamicGridViewController<BDDynamicGridViewDelegate>
 @end

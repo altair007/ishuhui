@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.delegate = self;
+    [self reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark - 
+- (NSUInteger)maximumViewsPerCell
+{
+    return 5;
+}
+
+- (NSUInteger)numberOfViews
+{
+    return 100;
+}
+
+- (UIView*) viewAtIndex:(NSUInteger)index rowInfo:(BDRowInfo*)rowInfo
+{
+    UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed: @"home_haizeiwang.jpg"]];
+    imageView.frame = CGRectMake(0, 0, 100, 100);
+    return imageView;
+}
 @end
