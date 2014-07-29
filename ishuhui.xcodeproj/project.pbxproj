@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C220E38D1987862700B407F8 /* home_BigSword.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3811987862700B407F8 /* home_BigSword.jpg */; };
+		C220E38E1987862700B407F8 /* home_DuckSky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3821987862700B407F8 /* home_DuckSky.jpg */; };
+		C220E38F1987862700B407F8 /* home_FairyTail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3831987862700B407F8 /* home_FairyTail.jpg */; };
+		C220E3901987862700B407F8 /* home_FoodCaptive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3841987862700B407F8 /* home_FoodCaptive.jpg */; };
+		C220E3921987862700B407F8 /* home_Gintama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3861987862700B407F8 /* home_Gintama.jpg */; };
+		C220E3931987862700B407F8 /* home_Hunter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3871987862700B407F8 /* home_Hunter.jpg */; };
+		C220E3941987862700B407F8 /* home_LieGame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3881987862700B407F8 /* home_LieGame.jpg */; };
+		C220E3951987862700B407F8 /* home_Naruto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E3891987862700B407F8 /* home_Naruto.jpg */; };
+		C220E3961987862700B407F8 /* home_OnePiece.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E38A1987862700B407F8 /* home_OnePiece.jpg */; };
+		C220E3971987862700B407F8 /* home_Volleyball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C220E38B1987862700B407F8 /* home_Volleyball.jpg */; };
+		C2A7925819878FC50022A20C /* home_GiantSchool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2A7925719878FC50022A20C /* home_GiantSchool.jpg */; };
+		C2A7925C19879D430022A20C /* ISHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7925B19879D430022A20C /* ISHHomeViewController.m */; };
+		C2A7925F19879E710022A20C /* ISHHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7925E19879E710022A20C /* ISHHomeModel.m */; };
+		C2A792611987A3630022A20C /* home_AttackOnTitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2A792601987A3630022A20C /* home_AttackOnTitan.jpg */; };
 		C2BDFA881987384A00B908A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA871987384A00B908A2 /* Foundation.framework */; };
 		C2BDFA8A1987384A00B908A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA891987384A00B908A2 /* CoreGraphics.framework */; };
 		C2BDFA8C1987384A00B908A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BDFA8B1987384A00B908A2 /* UIKit.framework */; };
@@ -19,14 +33,12 @@
 		C2BDFAB11987384A00B908A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFAAF1987384A00B908A2 /* InfoPlist.strings */; };
 		C2BDFAB31987384A00B908A2 /* ishuhuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAB21987384A00B908A2 /* ishuhuiTests.m */; };
 		C2BDFAC7198744AF00B908A2 /* ISHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFABF198744AF00B908A2 /* ISHAppDelegate.m */; };
-		C2BDFAC9198744AF00B908A2 /* ISHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAC3198744AF00B908A2 /* ISHViewController.m */; };
 		C2BDFACD198747A900B908A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFACB198747A900B908A2 /* Main.storyboard */; };
 		C2BDFAD61987488B00B908A2 /* BDDynamicGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAD01987488B00B908A2 /* BDDynamicGridCell.m */; };
 		C2BDFAD71987488B00B908A2 /* BDDynamicGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAD21987488B00B908A2 /* BDDynamicGridViewController.m */; };
 		C2BDFAD81987488B00B908A2 /* BDRowInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BDFAD51987488B00B908A2 /* BDRowInfo.m */; };
 		C2BDFADC19874F0F00B908A2 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFADA19874F0F00B908A2 /* settings.png */; };
 		C2BDFADD19874F0F00B908A2 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFADB19874F0F00B908A2 /* settings@2x.png */; };
-		C2BDFAE1198759E400B908A2 /* home_haizeiwang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2BDFAE0198759E400B908A2 /* home_haizeiwang.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C220E3811987862700B407F8 /* home_BigSword.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_BigSword.jpg; sourceTree = "<group>"; };
+		C220E3821987862700B407F8 /* home_DuckSky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_DuckSky.jpg; sourceTree = "<group>"; };
+		C220E3831987862700B407F8 /* home_FairyTail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_FairyTail.jpg; sourceTree = "<group>"; };
+		C220E3841987862700B407F8 /* home_FoodCaptive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_FoodCaptive.jpg; sourceTree = "<group>"; };
+		C220E3861987862700B407F8 /* home_Gintama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_Gintama.jpg; sourceTree = "<group>"; };
+		C220E3871987862700B407F8 /* home_Hunter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_Hunter.jpg; sourceTree = "<group>"; };
+		C220E3881987862700B407F8 /* home_LieGame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_LieGame.jpg; sourceTree = "<group>"; };
+		C220E3891987862700B407F8 /* home_Naruto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_Naruto.jpg; sourceTree = "<group>"; };
+		C220E38A1987862700B407F8 /* home_OnePiece.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_OnePiece.jpg; sourceTree = "<group>"; };
+		C220E38B1987862700B407F8 /* home_Volleyball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_Volleyball.jpg; sourceTree = "<group>"; };
+		C2A7925719878FC50022A20C /* home_GiantSchool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_GiantSchool.jpg; sourceTree = "<group>"; };
+		C2A7925A19879D430022A20C /* ISHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHHomeViewController.h; sourceTree = "<group>"; };
+		C2A7925B19879D430022A20C /* ISHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHHomeViewController.m; sourceTree = "<group>"; };
+		C2A7925D19879E710022A20C /* ISHHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHHomeModel.h; sourceTree = "<group>"; };
+		C2A7925E19879E710022A20C /* ISHHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHHomeModel.m; sourceTree = "<group>"; };
+		C2A792601987A3630022A20C /* home_AttackOnTitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_AttackOnTitan.jpg; sourceTree = "<group>"; };
 		C2BDFA841987384A00B908A2 /* ishuhui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ishuhui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BDFA871987384A00B908A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2BDFA891987384A00B908A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +83,6 @@
 		C2BDFAB01987384A00B908A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2BDFAB21987384A00B908A2 /* ishuhuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ishuhuiTests.m; sourceTree = "<group>"; };
 		C2BDFABF198744AF00B908A2 /* ISHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHAppDelegate.m; sourceTree = "<group>"; };
-		C2BDFAC2198744AF00B908A2 /* ISHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHViewController.h; sourceTree = "<group>"; };
-		C2BDFAC3198744AF00B908A2 /* ISHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHViewController.m; sourceTree = "<group>"; };
 		C2BDFACC198747A900B908A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		C2BDFACF1987488B00B908A2 /* BDDynamicGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDynamicGridCell.h; sourceTree = "<group>"; };
 		C2BDFAD01987488B00B908A2 /* BDDynamicGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDynamicGridCell.m; sourceTree = "<group>"; };
@@ -68,7 +94,6 @@
 		C2BDFADA19874F0F00B908A2 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		C2BDFADB19874F0F00B908A2 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
 		C2BDFADE198753B800B908A2 /* ISHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHAppDelegate.h; sourceTree = "<group>"; };
-		C2BDFAE0198759E400B908A2 /* home_haizeiwang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_haizeiwang.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +120,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2A7925919879D430022A20C /* home */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7925A19879D430022A20C /* ISHHomeViewController.h */,
+				C2A7925B19879D430022A20C /* ISHHomeViewController.m */,
+				C2A7925D19879E710022A20C /* ISHHomeModel.h */,
+				C2A7925E19879E710022A20C /* ISHHomeModel.m */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 		C2BDFA7B1987384A00B908A2 = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				C2BDFABE198744AF00B908A2 /* AppDelegate */,
-				C2BDFAC1198744AF00B908A2 /* Controller */,
 				C2BDFAC4198744AF00B908A2 /* OpenSource */,
 				C2BDFAC5198744AF00B908A2 /* Scence */,
 			);
@@ -186,15 +221,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		C2BDFAC1198744AF00B908A2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C2BDFAC2198744AF00B908A2 /* ISHViewController.h */,
-				C2BDFAC3198744AF00B908A2 /* ISHViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		C2BDFAC4198744AF00B908A2 /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +232,7 @@
 		C2BDFAC5198744AF00B908A2 /* Scence */ = {
 			isa = PBXGroup;
 			children = (
+				C2A7925919879D430022A20C /* home */,
 			);
 			path = Scence;
 			sourceTree = "<group>";
@@ -253,7 +280,18 @@
 		C2BDFADF198759E400B908A2 /* home */ = {
 			isa = PBXGroup;
 			children = (
-				C2BDFAE0198759E400B908A2 /* home_haizeiwang.jpg */,
+				C2A792601987A3630022A20C /* home_AttackOnTitan.jpg */,
+				C2A7925719878FC50022A20C /* home_GiantSchool.jpg */,
+				C220E3811987862700B407F8 /* home_BigSword.jpg */,
+				C220E3821987862700B407F8 /* home_DuckSky.jpg */,
+				C220E3831987862700B407F8 /* home_FairyTail.jpg */,
+				C220E3841987862700B407F8 /* home_FoodCaptive.jpg */,
+				C220E3861987862700B407F8 /* home_Gintama.jpg */,
+				C220E3871987862700B407F8 /* home_Hunter.jpg */,
+				C220E3881987862700B407F8 /* home_LieGame.jpg */,
+				C220E3891987862700B407F8 /* home_Naruto.jpg */,
+				C220E38A1987862700B407F8 /* home_OnePiece.jpg */,
+				C220E38B1987862700B407F8 /* home_Volleyball.jpg */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -335,11 +373,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C220E3961987862700B407F8 /* home_OnePiece.jpg in Resources */,
 				C2BDFADD19874F0F00B908A2 /* settings@2x.png in Resources */,
+				C220E3941987862700B407F8 /* home_LieGame.jpg in Resources */,
 				C2BDFADC19874F0F00B908A2 /* settings.png in Resources */,
 				C2BDFAA01987384A00B908A2 /* Images.xcassets in Resources */,
-				C2BDFAE1198759E400B908A2 /* home_haizeiwang.jpg in Resources */,
+				C2A792611987A3630022A20C /* home_AttackOnTitan.jpg in Resources */,
 				C2BDFA921987384A00B908A2 /* InfoPlist.strings in Resources */,
+				C220E38D1987862700B407F8 /* home_BigSword.jpg in Resources */,
+				C220E3951987862700B407F8 /* home_Naruto.jpg in Resources */,
+				C220E38E1987862700B407F8 /* home_DuckSky.jpg in Resources */,
+				C220E38F1987862700B407F8 /* home_FairyTail.jpg in Resources */,
+				C220E3901987862700B407F8 /* home_FoodCaptive.jpg in Resources */,
+				C220E3921987862700B407F8 /* home_Gintama.jpg in Resources */,
+				C220E3971987862700B407F8 /* home_Volleyball.jpg in Resources */,
+				C2A7925819878FC50022A20C /* home_GiantSchool.jpg in Resources */,
+				C220E3931987862700B407F8 /* home_Hunter.jpg in Resources */,
 				C2BDFACD198747A900B908A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,9 +409,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2BDFAD71987488B00B908A2 /* BDDynamicGridViewController.m in Sources */,
+				C2A7925C19879D430022A20C /* ISHHomeViewController.m in Sources */,
 				C2BDFAD81987488B00B908A2 /* BDRowInfo.m in Sources */,
+				C2A7925F19879E710022A20C /* ISHHomeModel.m in Sources */,
 				C2BDFA941987384A00B908A2 /* main.m in Sources */,
-				C2BDFAC9198744AF00B908A2 /* ISHViewController.m in Sources */,
 				C2BDFAD61987488B00B908A2 /* BDDynamicGridCell.m in Sources */,
 				C2BDFAC7198744AF00B908A2 /* ISHAppDelegate.m in Sources */,
 			);
@@ -569,6 +619,7 @@
 				C2BDFAB81987384A00B908A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BDFAB91987384A00B908A2 /* Build configuration list for PBXNativeTarget "ishuhuiTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +628,7 @@
 				C2BDFABB1987384A00B908A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

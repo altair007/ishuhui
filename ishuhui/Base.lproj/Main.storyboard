@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-551" y="47"/>
         </scene>
-        <!--View Controller - 爱鼠绘-->
+        <!--Home View Controller - 爱鼠绘-->
         <scene sceneID="vvF-cO-JyV">
             <objects>
-                <viewController id="7dO-La-ybo" customClass="ISHViewController" sceneMemberID="viewController">
+                <viewController id="7dO-La-ybo" customClass="ISHHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JH6-AM-Qg6"/>
                         <viewControllerLayoutGuide type="bottom" id="mNj-3B-UiC"/>

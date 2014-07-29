@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "BDDynamicGridViewDelegate.h"
 #import "BDDynamicGridViewController.h"
+@class  ISHHomeModel;
 
-@interface ISHViewController : BDDynamicGridViewController<BDDynamicGridViewDelegate>
+@interface ISHHomeViewController : BDDynamicGridViewController<BDDynamicGridViewDelegate>
+@property (strong, nonatomic) ISHHomeModel * model; //!< 数据模型.
 @end

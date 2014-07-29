@@ -40,7 +40,7 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"<Row %d has %d views, and %d views before.>", order, viewsPerCell, accumulatedViews];
+    return [NSString stringWithFormat:@"<Row %@ has %@ views, and %@ views before.>", [NSNumber numberWithUnsignedInteger: order], [NSNumber numberWithUnsignedInteger: viewsPerCell], [NSNumber numberWithUnsignedInteger: accumulatedViews]];
 }
 
 #define kVIEWS_PER_CELL 						@"viewsPerCell"
